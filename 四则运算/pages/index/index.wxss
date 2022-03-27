@@ -1,0 +1,21 @@
+page{
+    background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic3.zhimg.com%2F50%2Fv2-76caafb0544cc7afdc9bf47401cca868_hd.jpg&refer=http%3A%2F%2Fpic3.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1650634233&t=b49c74fa5e89ed98fc03355bb75509e6);
+    background-size: 100% 100%;
+}
+.big{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50rpx;
+}
+.big view{
+    height: 200rpx;
+    width: 300rpx;
+    background-color:#1f3edf;
+    margin: 160rpx auto 20rpx;
+    font-size: 40rpx;
+    font-weight: 700;
+    line-height: 200rpx;
+    text-align: center;
+    color: #fff;
+}

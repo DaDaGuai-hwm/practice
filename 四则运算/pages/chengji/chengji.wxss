@@ -1,0 +1,64 @@
+page{
+    background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fhbimg.huabanimg.com%2Ffcc97ea04d0dce7407eba3ee46a58ffc2a93ffb2147224-1XP9FK_fw236&refer=http%3A%2F%2Fhbimg.huabanimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1650634526&t=1ee0af231ba1f15c15085aedf3eb97b4);
+    background-size: 100% 100%;
+}
+.tittle{
+    margin-top: 120rpx;
+    height: 100rpx;
+    font-size: 50rpx;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.cj{
+    height: 60rpx;
+    font-size: 40rpx;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+.sti{
+    position: relative;
+    height: 200rpx;
+    background-color: skyblue;
+    width: 600rpx;
+    margin: 20rpx auto;
+    border-radius: 30rpx;
+}
+.sti view{
+    margin-top: 20rpx;
+    margin-left: 70rpx;
+    font-size: 40rpx;
+    color: white;
+}
+.sti image{
+position: absolute;
+right: 50rpx;
+top: 60rpx;
+height: 70rpx;
+width: 70rpx;
+}
+.eti{
+    position: relative;
+    height: 200rpx;
+    background-color: rgb(238, 109, 131);
+    width: 600rpx;
+    margin: 20rpx auto;
+    border-radius: 30rpx;
+}
+.eti view{
+    margin-top: 20rpx;
+    margin-left: 70rpx;
+    font-size: 40rpx;
+}
+.eti image{
+position: absolute;
+right: 50rpx;
+top: 60rpx;
+height: 70rpx;
+width: 70rpx;
+}
+button{
+    height: 80rpx;
+    border-radius:40rpx;
+}

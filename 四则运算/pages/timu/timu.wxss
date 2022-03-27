@@ -1,0 +1,67 @@
+Page{
+   background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202004%2F12%2F20200412121611_KHkEK.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0);
+   background-size: 100% 100%;
+
+}
+navigator{
+    width: 80rpx;
+    margin: 70rpx 0 0 40rpx;
+    font-size: 40rpx;
+    background-color: #fff;
+}
+.tittle{
+    font-size: 50rpx;
+    height: 60rpx;
+    text-align: center;
+    line-height: 60rpx;
+    margin: 100rpx auto 20rpx;
+}
+.tittle view{
+    display: inline-block;
+}
+.time{
+    text-align: center;
+    line-height: 60rpx;
+    height: 60rpx;
+    font-size: 50rpx;
+}
+.question{
+    height: 160rpx;
+    width: 500rpx;
+    font-size: 60rpx;
+    font-weight: 700;
+    text-align: center;
+    margin:70rpx auto 0;
+    line-height: 160rpx;
+    background-color: #fff;
+    border: 2rpx solid #1f3edf;
+    border-radius: 80rpx;
+}
+input{
+    height: 100rpx;
+    background-color: #fff;
+    margin:40rpx 170rpx;
+    font-size: 40rpx;
+    border: 2rpx solid #1f3edf;
+    border-radius: 50rpx;
+    padding: 0 0 0 20rpx;
+}
+.error{
+    height: 160rpx;
+    font-size: 40rpx;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 70rpx;
+    line-height: 160rpx;
+    background-color: #fff;
+    border: 2rpx solid #1f3edf;
+    border-radius: 80rpx;
+}
+.error view{
+    display: inline-block;
+}
+button{
+    height: 80rpx;
+    margin: 40rpx 0;
+    border-radius: 40rpx;
+}

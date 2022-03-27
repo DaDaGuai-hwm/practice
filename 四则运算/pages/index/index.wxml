@@ -1,0 +1,5 @@
+<view class="big">
+      <view class="easy" bindtap="degree">简易模式</view>
+      <view class="middle" bindtap="degree2">中等模式</view>
+      <view class="nan" bindtap="degree3">困难模式</view>
+</view>

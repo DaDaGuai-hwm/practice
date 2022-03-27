@@ -1,0 +1,18 @@
+<view class="tittle">成绩单</view>
+<view class="cj">总分：{{mark}}</view>
+<view class="cj">总耗时：{{hour}}时{{minute}}分{{second}}秒</view>
+<button type="primary" bindtap="back">再测一次</button>
+<block wx:for="{{questionList}}" wx:key="index">
+    <view class="sti" wx:if="{{item.a==answerList[index]}}">
+        <view >题目{{index+1}}：{{item.q}}</view>
+        <view>你的答案：{{answerList[index]}}正确答案：{{item.a}}</view>
+        <view>得分：5分</view>
+        <image src="/pic/正确.png"></image>
+    </view>
+        <view class="eti" wx:if="{{item.a!=answerList[index]}}">
+        <view >题目{{index+1}}：{{item.q}}</view>
+        <view>你的答案：{{answerList[index]}}正确答案：{{item.a}}</view>
+        <view>得分：0分</view>
+        <image src="/pic/错误.png"></image>
+    </view>
+</block>

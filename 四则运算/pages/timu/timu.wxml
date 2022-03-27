@@ -1,0 +1,15 @@
+<navigator url="/pages/index/index">退出</navigator>
+
+<view class="tittle">第<view>{{num}}</view>题/共20题</view>
+
+<view class="time">{{hour}}:{{minute}}:{{second}}</view>
+
+<view class="question">{{questionList[num-1].q}}</view>
+
+<input type="text" placeholder="请输入答案" bindinput="input" value="{{answer}}"></input>
+
+<button type="primary" bindtap="next" wx:if="{{num<20}}">下一题</button>
+
+<button type="primary" bindtap="submit" wx:if="{{num==20}}">交卷</button>
+
+
